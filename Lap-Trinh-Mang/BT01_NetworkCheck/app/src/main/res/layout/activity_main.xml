@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KIỂM TRA KẾT NỐI MẠNG"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="30dp"/>
+
+    <ImageView
+        android:id="@+id/imgStatus"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@android:drawable/ic_menu_share"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="Status Icon" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhấn nút để kiểm tra"
+        android:textSize="16sp"
+        android:layout_marginBottom="40dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KIỂM TRA NGAY"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/btnOpenGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MỞ GOOGLE"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:visibility="gone" />
+
+</LinearLayout>
